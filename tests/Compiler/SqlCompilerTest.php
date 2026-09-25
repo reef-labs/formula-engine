@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Tests\Compiler;
+namespace ReefLabs\FormulaEngine\Tests\Compiler;
 
-use Jthayne\FormulaEngine\Compiler\SqlCompiler;
-use Jthayne\FormulaEngine\Exception\UnsupportedFunctionException;
-use Jthayne\FormulaEngine\Lexer\Lexer;
-use Jthayne\FormulaEngine\Parser\Parser;
+use ReefLabs\FormulaEngine\Compiler\SqlCompiler;
+use ReefLabs\FormulaEngine\Exception\UnsupportedFunctionException;
+use ReefLabs\FormulaEngine\Lexer\Lexer;
+use ReefLabs\FormulaEngine\Parser\Parser;
 use PHPUnit\Framework\TestCase;
 
 final class SqlCompilerTest extends TestCase

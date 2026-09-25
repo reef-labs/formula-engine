@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Parser;
+namespace ReefLabs\FormulaEngine\Parser;
 
-use Jthayne\FormulaEngine\Ast\BinaryExpressionNode;
-use Jthayne\FormulaEngine\Ast\CaseNode;
-use Jthayne\FormulaEngine\Ast\CaseWhenClause;
-use Jthayne\FormulaEngine\Ast\FunctionCallNode;
-use Jthayne\FormulaEngine\Ast\IfNode;
-use Jthayne\FormulaEngine\Ast\LiteralNode;
-use Jthayne\FormulaEngine\Ast\Node;
-use Jthayne\FormulaEngine\Ast\UnaryExpressionNode;
-use Jthayne\FormulaEngine\Ast\VariableNode;
-use Jthayne\FormulaEngine\Exception\SyntaxException;
-use Jthayne\FormulaEngine\Lexer\Token;
-use Jthayne\FormulaEngine\Lexer\TokenType;
+use ReefLabs\FormulaEngine\Ast\BinaryExpressionNode;
+use ReefLabs\FormulaEngine\Ast\CaseNode;
+use ReefLabs\FormulaEngine\Ast\CaseWhenClause;
+use ReefLabs\FormulaEngine\Ast\FunctionCallNode;
+use ReefLabs\FormulaEngine\Ast\IfNode;
+use ReefLabs\FormulaEngine\Ast\LiteralNode;
+use ReefLabs\FormulaEngine\Ast\Node;
+use ReefLabs\FormulaEngine\Ast\UnaryExpressionNode;
+use ReefLabs\FormulaEngine\Ast\VariableNode;
+use ReefLabs\FormulaEngine\Exception\SyntaxException;
+use ReefLabs\FormulaEngine\Lexer\Token;
+use ReefLabs\FormulaEngine\Lexer\TokenType;
 
 /**
  * Recursive-descent parser that turns a token stream into a formula AST.

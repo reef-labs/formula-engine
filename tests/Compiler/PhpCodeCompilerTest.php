@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Tests\Compiler;
+namespace ReefLabs\FormulaEngine\Tests\Compiler;
 
-use Jthayne\FormulaEngine\Exception\UndefinedVariableException;
-use Jthayne\FormulaEngine\FormulaEngine;
+use ReefLabs\FormulaEngine\Exception\UndefinedVariableException;
+use ReefLabs\FormulaEngine\FormulaEngine;
 use PHPUnit\Framework\TestCase;
 
 final class PhpCodeCompilerTest extends TestCase

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Exception;
+namespace ReefLabs\FormulaEngine\Exception;
 
 /**
  * Raised when compiling a formula that calls a function into a target that

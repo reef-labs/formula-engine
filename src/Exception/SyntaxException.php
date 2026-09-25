@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Exception;
+namespace ReefLabs\FormulaEngine\Exception;
 
 /**
  * Raised when a formula cannot be tokenized or parsed.

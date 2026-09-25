@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Exception;
+namespace ReefLabs\FormulaEngine\Exception;
 
 /**
  * Base exception for all errors raised by the formula engine.

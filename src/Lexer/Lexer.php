@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Lexer;
+namespace ReefLabs\FormulaEngine\Lexer;
 
-use Jthayne\FormulaEngine\Exception\SyntaxException;
+use ReefLabs\FormulaEngine\Exception\SyntaxException;
 
 /**
  * Turns a raw formula string into a flat list of tokens.

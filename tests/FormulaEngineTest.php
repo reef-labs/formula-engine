@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Tests;
+namespace ReefLabs\FormulaEngine\Tests;
 
-use Jthayne\FormulaEngine\Exception\SyntaxException;
-use Jthayne\FormulaEngine\FormulaEngine;
+use ReefLabs\FormulaEngine\Exception\SyntaxException;
+use ReefLabs\FormulaEngine\FormulaEngine;
 use PHPUnit\Framework\TestCase;
 
 final class FormulaEngineTest extends TestCase

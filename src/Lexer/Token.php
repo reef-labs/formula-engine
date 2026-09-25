@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Lexer;
+namespace ReefLabs\FormulaEngine\Lexer;
 
 final class Token
 {

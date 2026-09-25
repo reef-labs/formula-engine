@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Tests\Compiler;
+namespace ReefLabs\FormulaEngine\Tests\Compiler;
 
-use Jthayne\FormulaEngine\Compiler\FunctionCollector;
-use Jthayne\FormulaEngine\Lexer\Lexer;
-use Jthayne\FormulaEngine\Parser\Parser;
+use ReefLabs\FormulaEngine\Compiler\FunctionCollector;
+use ReefLabs\FormulaEngine\Lexer\Lexer;
+use ReefLabs\FormulaEngine\Parser\Parser;
 use PHPUnit\Framework\TestCase;
 
 final class FunctionCollectorTest extends TestCase

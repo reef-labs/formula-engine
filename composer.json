@@ -1,16 +1,16 @@
 {
-    "name": "reef-labs/formula-engine",
+    "name": "reeflabs/formula-engine",
     "description": "A library designed for interpreting user formulas and functions into code.",
     "type": "library",
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
-            "reef-labs\\FormulaEngine\\": "src/"
+            "reeflabs\\FormulaEngine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "reef-labs\\FormulaEngine\\Tests\\": "tests/"
+            "reeflabs\\FormulaEngine\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",

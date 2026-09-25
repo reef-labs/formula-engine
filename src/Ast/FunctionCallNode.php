@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Ast;
+namespace ReefLabs\FormulaEngine\Ast;
 
 /**
  * A call to a named function, e.g. Today() or GetNameFromID([[ID]]).

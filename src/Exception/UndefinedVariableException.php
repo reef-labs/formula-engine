@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Exception;
+namespace ReefLabs\FormulaEngine\Exception;
 
 /**
  * Raised at evaluation time when a formula references a variable that was

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine;
+namespace ReefLabs\FormulaEngine;
 
-use Jthayne\FormulaEngine\Ast\Node;
-use Jthayne\FormulaEngine\Compiler\Evaluator;
-use Jthayne\FormulaEngine\Compiler\FunctionCollector;
-use Jthayne\FormulaEngine\Compiler\PhpCodeCompiler;
-use Jthayne\FormulaEngine\Compiler\SqlCompiler;
-use Jthayne\FormulaEngine\Compiler\VariableCollector;
-use Jthayne\FormulaEngine\Exception\SyntaxException;
-use Jthayne\FormulaEngine\Exception\UndefinedFunctionException;
-use Jthayne\FormulaEngine\Lexer\Lexer;
-use Jthayne\FormulaEngine\Parser\Parser;
-use Jthayne\FormulaEngine\Runtime\FormulaRuntime;
+use ReefLabs\FormulaEngine\Ast\Node;
+use ReefLabs\FormulaEngine\Compiler\Evaluator;
+use ReefLabs\FormulaEngine\Compiler\FunctionCollector;
+use ReefLabs\FormulaEngine\Compiler\PhpCodeCompiler;
+use ReefLabs\FormulaEngine\Compiler\SqlCompiler;
+use ReefLabs\FormulaEngine\Compiler\VariableCollector;
+use ReefLabs\FormulaEngine\Exception\SyntaxException;
+use ReefLabs\FormulaEngine\Exception\UndefinedFunctionException;
+use ReefLabs\FormulaEngine\Lexer\Lexer;
+use ReefLabs\FormulaEngine\Parser\Parser;
+use ReefLabs\FormulaEngine\Runtime\FormulaRuntime;
 
 /**
  * Entry point for parsing and compiling user-authored formulas such as:

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Tests\Compiler;
+namespace ReefLabs\FormulaEngine\Tests\Compiler;
 
-use Jthayne\FormulaEngine\Compiler\Evaluator;
-use Jthayne\FormulaEngine\Exception\UndefinedFunctionException;
-use Jthayne\FormulaEngine\Exception\UndefinedVariableException;
-use Jthayne\FormulaEngine\Lexer\Lexer;
-use Jthayne\FormulaEngine\Parser\Parser;
+use ReefLabs\FormulaEngine\Compiler\Evaluator;
+use ReefLabs\FormulaEngine\Exception\UndefinedFunctionException;
+use ReefLabs\FormulaEngine\Exception\UndefinedVariableException;
+use ReefLabs\FormulaEngine\Lexer\Lexer;
+use ReefLabs\FormulaEngine\Parser\Parser;
 use PHPUnit\Framework\TestCase;
 
 final class EvaluatorTest extends TestCase

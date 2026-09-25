@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Ast;
+namespace ReefLabs\FormulaEngine\Ast;
 
 /**
  * Case (subject)|value1,result1|value2,result2|...|default

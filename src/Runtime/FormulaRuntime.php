@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Jthayne\FormulaEngine\Runtime;
+namespace ReefLabs\FormulaEngine\Runtime;
 
-use Jthayne\FormulaEngine\Exception\UndefinedFunctionException;
-use Jthayne\FormulaEngine\Exception\UndefinedVariableException;
+use ReefLabs\FormulaEngine\Exception\UndefinedFunctionException;
+use ReefLabs\FormulaEngine\Exception\UndefinedVariableException;
 
 /**
  * Helper functions referenced by name from compiled PHP code, kept outside
  * of the compiled closures so the generated source stays small and
- * behaves identically to the {@see \Jthayne\FormulaEngine\Compiler\Evaluator}.
+ * behaves identically to the {@see \ReefLabs\FormulaEngine\Compiler\Evaluator}.
  */
 final class FormulaRuntime
 {
