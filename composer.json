@@ -1,5 +1,5 @@
 {
-    "name": "reeflabs/formula-engine",
+    "name": "reef-labs/formula-engine",
     "description": "A library designed for interpreting user formulas and functions into code.",
     "type": "library",
     "license": "BSD-3-Clause",
