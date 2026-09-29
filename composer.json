@@ -5,12 +5,12 @@
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
-            "reeflabs\\FormulaEngine\\": "src/"
+            "ReefLabs\\FormulaEngine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "reeflabs\\FormulaEngine\\Tests\\": "tests/"
+            "ReefLabs\\FormulaEngine\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
